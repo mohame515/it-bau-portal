@@ -1,0 +1,15 @@
+ # This is a pretty good example
+    # of how you can spread comments
+    # over multiple lines in Python
+	
+	
+"""
+If I really hate pressing `enter` and
+typing all those hash marks, I could
+just do this instead
+"""
+sum=0
+x=8
+v=3
+sum=x+v
+	
