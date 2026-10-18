@@ -1,0 +1,5 @@
+1. Course Registration:
+https://uniportal.huawei.com/accounts/register.do?method=toRegister&appurl=http://support.huawei.com/enterprise/?nls=en
+
+2. Exam Registration
+https://e.huawei.com/en/talent/#/admin/myappointments/invitation 
