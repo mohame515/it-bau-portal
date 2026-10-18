@@ -1,0 +1,495 @@
+(1)In Neumann achdectures the program to be run should be 
+
+Select one
+
+ a.Stored in the form of high level language
+
+ b. Stored in hard diek
+
+(c). stored in main memory
+
+ d. Stored in CPU registers
+**********************************
+(2)CPU Interconnection bus is
+
+Select one
+
+ a.Some mechanism that provides for communication amoneg the memoryt unit, 1/O modudes, and CPU
+
+(b). Some mechanism that provides for communication among the control unit, ALU, and regsters
+
+ c. Some mechanism that provides for commurication among 1/0 modules and the CPU
+
+ d. Some mechanism that provides for communication the external cache memory and CPU
+***********************************
+(3)The principal reason driving the change from bus to point-to-point interconnect was
+
+Select one
+
+ a. The rise of different 1/O components with various speeds
+
+ b. It becomes difficult to connect multi core processors to memory and 1/O modules
+
+(c). with the increase of data rates, becomes increasingly difficult to perform the synchronization and arbitration functions in a timely
+************************************
+(4)Program counter is incremented:
+
+Select one
+
+ a. After decoding the instruction
+
+(b). Immediately after fetching each instruction
+
+ C. After storing the result of execution
+
+ d. After executing each instruction
+************************************
+(5)The instruction set is
+
+Select one
+
+(a). All of the above are not true
+
+ b. A set of statements understood by a certain CPU to perform
+
+ c. A set of statements describing the operation of a CPU
+
+ d. A set of statements shows the programmer how to run a program on a cpu
+************************************
+(6)The wwith of Address bus delermines
+
+Select one
+
+ a. the speed of data bus
+
+(b). the size of memory thal can be connected to processor
+
+ c. the sze of hard desk that can be connected to processor
+
+ d. number of computef words that can be accessed at a time
+************************************
+(7)the width of Data bus determines
+
+Select one:
+
+ a.size of memory that can be connected to processor
+
+ b. the size of hard desk that can be connected in computer system
+
+ c. number of 0/O devices that can be connected to the processor
+
+(d). number of computer words that can be accessed at one time
+************************************
+(8)chose the most correct statements out of the followings
+
+Select one:
+
+ a. hardware solutions is slower but cheaper than software solutions
+
+ b. hardware solutions is faster and cheaper than software solutions
+
+ c. software solutions is faster and cheaper than hardware solutions
+
+(d). hardware solutions is faster but more expensive than software solutions
+************************************
+(9)The 8080 microprocessor was
+
+Select one
+
+(a). The first general purpose microprocessor
+
+ b. The first B-bits data bus microprocessor
+
+ c. The first 16 bit data bus microprocessor
+
+ d. The first 16 bits microprocessor
+************************************
+(10)In computer structure and organzations the lerm structure refers to 
+
+Select one
+
+(a). The way in which components relate to each other
+
+ b. The way in which components function
+
+ c. Type of computer comporients
+
+ d. The way in which components are manufactured
+************************************
+(11)the CPU checks for interrupt after
+
+Select one
+
+ a. decoding an instruction
+
+ b. receiving each clock cycle
+
+ c. executing an instruction
+
+(d). fetching an instruction
+************************************
+(12)synchronous buses uses
+
+Select one:
+
+ a. no synchronization signals
+
+ b. DMA for synchronzation
+
+ c. interrupt for sgpchronzation
+
+(d). clock timing signal for synchronization
+************************************
+(13)Designers have tuned to a fundamentally new approach to improving performance by
+
+select one
+
+(a). increasing memory
+
+ b. Increastng clock rate
+
+ C. Devigning multi core processors
+
+ d. Decreasing number of 1/0 channels
+
+************************************
+(14)The Ditest Memory Access (DMA) s used to
+
+select one
+
+ a. transter data beftween CPU and 1/O devices directy
+
+ b. transter data between Memory and CPU devices directy
+
+ c. transter data between CPU and Hard desk devces directy
+
+(d). transter data between Memory and 1/0 devices directy
+************************************
+(15)Instruction butter regester (IBR) is used to:
+
+Select one
+
+ a. Stores the result of executed instruction
+
+(b). Stores address of instruction to be fetched
+
+ c. Store the address of instruction operands
+
+ d. Stores the fetched instruction to be executed
+************************************
+(16)one of the following stalements is false referring to mask able interrupt
+
+Select one
+
+ a. can be prevented by the programmer
+
+ b. is used to prevent interrupting programs
+
+(c). can not be prevented by tie programmer
+
+ d. used to prevent some code of a program to be interrupted while executed
+************************************
+(17)one of ihe following statements reference to speed of compuler systems is false
+
+Select one
+
+ a. computers with larger cache memory can execute larger programs faster
+
+ b. computers with nigher clock rate can execute larger programs taster
+
+(c). computers with larger number of 1/O devices can  execute  langer programs faster
+
+ d. computers with large man memory can execute larger progranes faster
+************************************
+(18)the main three steps in instruction execution follows the following sequence
+
+Select one
+
+ a. Fitch instruction, execute and then decode
+
+(b). Fitch instruction, Decode, then execute
+
+ c. Fitch operands, Decode and then execute
+
+ d. Decode Fitch, then Execute
+************************************
+(19)one of the following statements is true related to dynamic and statie RAMS
+
+Select one:
+
+ a. Dynamic is faster than Static but needs refresh
+
+ b. Static is faster than Dynamic but needs refresh
+
+ c. Dynamic has larger capacity but more expensive than Static
+
+(d). Dynamic is cheaper but slower than Static
+************************************
+(20)Second generation computers are those computer
+
+Select one
+
+ a. Started using electrical parts instead of mechanical parts
+
+ b. Started using vacuum tubes
+
+ c. Started using ICs
+d 
+(d).Started using transistors
+************************************
+(21)Accumulator (AC) register is used to:
+
+Select one
+
+ a. To store temporarily address of 1/0 devices
+
+ b. To store temporarily address of results
+
+(c). To store temporanly operands and results
+
+ d. To store temporarily address of operand to be fetched
+************************************
+(22)Accumulalor (AC) is 
+
+Select one
+
+ a. a register in CPU used to decode instruction
+
+ b. a register in CPU used to store instructions
+
+(c). a register In CPU used to accumutate results
+
+ d. is a location in main memory used to store resuits
+************************************
+(23)Neumann put the basic computer organisation for 
+
+Select one
+
+(a). Digital sequential computers
+
+ b. Digital multi core computers
+
+ C. Mechanical digitat computers
+
+ d. Digital parallel computers
+************************************
+(24)Improvements in Chip Organization and Architecture results in
+
+Select one
+
+ a. Decreasing speed of computers
+
+ b. All of the above are true
+
+(c). Increasing speed of microprocessors
+
+ d. Decreasing heat dissipation
+************************************
+(25)Memory buffer register (MBR) is used to:
+
+Select one:
+
+ a. Store the address of instruction in memory
+
+ b. Store the address of word to be sent to 1/0
+
+(C). Store the word to be written to memory or 1/0
+
+ d. Store an address of a word to be stored in memory
+************************************
+(26)the function of link layer in QPI layers is"
+
+select one
+
+ a. The high-level set of rules for exchanging packets of data between devices
+
+ b. Consists of the actual wires carrying the signals
+
+ c. Provides the framework for directing packets through the fabric
+
+(d). Responsible for reliable transmission and flow control
+************************************
+(27)performance of combuter machines mesured is :
+
+select1:
+
+ a.1/number of address lines 
+
+ b.1/number of data lines 
+
+(c).1/execution time
+
+ d.1/clock rate
+*************************************
+(28)a group of linked computers , working together closely thus in many respect forming a single computer is called :
+
+Select one
+
+ a.cloud computing 
+
+ b.multi processors compiler system
+
+(c).cluster computing
+
+ d.grid computing
+**************************************
+(29)(1)Regester in cpus are :
+
+select one:
+
+ a.the cache memory
+
+ b.memory units for holding addresses of data when computer switched on
+
+ c.memory units for permanent storeg of instructions and data 
+
+(d).memory units for temporary storeg of data instructions or addresses
+**************************************
+(30)the most challenge facing computer architecture designer is:
+
+Select one:
+
+ a.the need of interface between large memory and CPU
+
+(b).the mismatch proplem between vairous computer components
+
+ c.connention of wide buses
+
+ d.slow speed of available buses
+***************************************
+(31)moore's law describes the rate of: Ì’› ﬁ«‰Ê‰ „Ê— „⁄œ·:
+
+ a.increasing speed rate of computer
+
+(b).increasing speed rate of memory chips
+
+ c.increasing speed rate of memory chips
+
+ d.increasing speed rate of memory chips
+***************************************
+(32)for higher performance architecture 
+
+Select one :
+
+(a).uses wider width of data bus for components with different speed 
+
+ b.whene number of components increased the number of bus lines are increased 
+
+ c.multi buses are used when many components are connected
+
+ d.one single bus is used
+****************************************
+(33)program counter is incremented :
+
+select one:
+
+ a.after decoding the instruction 
+
+(b).immediately after fetching each instruction
+
+ c.after storing the result of execution
+
+ d.after executing each instruction
+****************************************
+(34) CPU Interconnection:
+ 
+(A).Some mechanism that provides for communication among the control unit,
+ALU, and registers
+ 
+ B.Some mechanism that provides far communication among the memory!
+unit, I/P modules, and CPU
+ 
+ C.Some mechanism that provides for communication the cache memory and
+CPU
+ 
+ D.Some mechanism that provides for communication among I/O modules and
+the CPU
+
+************************************************
+(35) Registers are:
+ 
+ A.Memory units for permanent storage of instructions and data
+ 
+ B.Memory units far halding addresses of data when computer switched on
+ 
+(C).Memory units for temparary storage of data, instructions or addresses.
+ 
+ D.None of the above is true
+
+************************************************
+(36)ENIAC is:
+ 
+ A.The first mechanical computer
+ 
+(B).Electronic Numerical Integrator And Computer
+ 
+ C.Special purpose computer
+
+ D.First embedded computer
+************************************************
+(37) Moore Law describes the rate of
+
+ a.Increasing speed rate of camputer
+
+ b.Increasing speed rate ef memory chips
+
+ c.Increasing speed rate of memory chips
+
+(d).increasing rate af nurrber of transistors in a single chip
+
+*************************************************
+(38)The technique that is built in micropracessars to increase speed is:
+ 
+ A.pipelining
+ 
+ b.Branch prediction
+ 
+ C.Speculative exetution
+ 
+(D).All of the above
+
+*************************************************
+(39)The most challenge fating computer architecture designer is
+ 
+ A.The need of interface between large memory and CPU
+ 
+(B).The mitmatch problem between various computer components
+ 
+ C.Connection of wide buses
+ 
+ D.Slow speed af avaliable buses
+*************************************************
+(40) improverments in Chip Organization and Architecture results in:
+ 
+ a.Decreasing speed of computers
+
+(b).Increasing speed of microprocessors
+ 
+ C.Decreasing heat dissipation
+ 
+ D. Al of the above are true
+
+*************************************************
+(41)Designers have turned to a fundamentally new approach to impraving performance
+by:
+ 
+(a).Increasing memory
+ 
+ b.Decreasing number of I/O channels
+ 
+ c.Designing multi core processors
+ 
+ d.Increasing clock rate
+
+
+*************************************************
+(42)The main difference between MIC and GPU is
+ 
+(d)all is T
+*************************************************
+(43) Embedded systems are :
+(a). Acombination of computer haedware and software
+ b. Aother namme of computer system
+ c. The name of amother bord in computer
+ d. All are T   
+

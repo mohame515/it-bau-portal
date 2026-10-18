@@ -1,0 +1,785 @@
+mid exam
+
+1)Software model would you choose If the University decided
+to join a consortium (i.e group) with other universities,
+to develop a common set of requirements and
+contract a software house to develop a single system
+for all the universities? in the consortium?
+
+a-Waterfall model
+
+b-Spiral development model
+
+c-Evolutionary development Model
+
+d-(Incremental development)
+
+=============================================================
+
+
+2)Prototyping is most useful for requirements gathering
+when:
+
+a-Possible designs are simple and require an abstract 
+  form to fully evaluate
+
+b-Data are not readily available.
+
+c-There is uncertainty about some aspects of the system
+
+d-(User requirements are well understood)
+
+=============================================================
+
+
+3)The waterfall model of software development is
+
+a-A good approach when a working program is required quickly.
+
+b-The best approach to use for projects with large
+ development teams
+
+c-An old fashioned model that is rarely used any more
+
+d-(A reasonable approach when requirements are well defined)
+
+=============================================================
+
+
+4)The incremental model of software development is:
+
+a-A reasonable approach when requirements are well defined.
+
+b-The best approach to use for projects with large
+ development teams
+
+c-A revolutionary model that is not used for commercial
+ products.
+
+d-(A good approach when a working core product is required
+ quickly)
+
+=============================================================
+
+
+5)Evolutionary software process models?
+
+a-Are iterative in nature
+
+b-Can easily accommodate product requirements changes
+
+c-Do not generally produce throwaway systems
+
+d-(All of the above)
+
+=============================================================
+
+
+6)The spiral model of software development
+
+a-Ends with the delivery of the software product
+
+b-Is more chaotic than the incremental model
+
+c-(Includes project risks evaluation during each iteration)
+
+d-All of the above
+
+=============================================================
+
+
+7*)The incremental model of software development is?
+
+a-A reasonable approach when requirements are well defined
+
+b-The best approach to use for projects with large
+ development teams
+
+c-A revolutionary model that is not used for commercial
+ products
+
+d-(A good approach when a working core product is required
+ quickly)
+
+=============================================================
+
+
+8)Software model would you choose if An International
+ University would like to use a student information 
+ system to its branches in Amman, USA and France and company
+ 
+a-Waterfall model
+
+b-Reuse oriented Model
+
+c-Evolutionary development Model
+
+d-(Spiral development model)
+
+=============================================================
+
+
+9)A software process is?
+
+a-Specification
+
+b-Development
+
+c-Validation and Evolution
+
+d-(All of the above)
+
+=============================================================
+
+10)Which of the items listed below is not one of the
+ software engineering layers?
+
+a-Process
+
+b-Methods
+
+c-Tools
+
+d-(Manufacturing)
+
+=============================================================
+
+
+11)Most organisations use CASE to:?
+
+a-(Reduce the cost of training personnel)
+
+b-Simplify program maintenance
+
+c-Increase job security
+
+d-Improve confidence in the IS department&nbsp
+
+=============================================================
+
+
+12)Which of the following best defines upper CASE?
+
+a-An automated systems development environment that provides
+  numerous tools to create diagrams, forms, and reports;
+  provides analysis,reporting, and code generation facilities;
+  and seamlessly shares and integrates data across and
+  between tools.
+
+
+b-CASE tools that support the creation of graphical 
+  representations of various system elements such as 
+  process flow, data relationships, and program structures.
+
+
+c-(CASE tools designed to support the information planning
+ and the project identification and selection, project
+ initiation and planning,analysis, and design phases
+ of the systems development life cycle)
+
+
+d-CASE tools designed to support the implementation
+  and maintenance phases of the systems development 
+  life cycle
+
+
+=============================================================
+
+
+13)Which of the following best describes the common
+ impact of CASE on programmers?
+
+a-Programmers will be much more active in the systems
+  development process through the use of upper CASE tools
+
+b-(communication skills most critical)
+
+c-The programmer's role will include more of maintaining
+  than source code
+
+d-The programmer will have greater control over
+  development projects and resources.
+
+=============================================================
+
+
+14)Which of the following best describes diagramming tools?
+
+a-An automated systems development environment that provides
+  numerous tools to create diagrams, forms, and reports;
+  provides analysis, reporting, and code generation 
+  facilities; andseamlessl shares and integrates data
+  across and between tools.
+
+
+b-CASE tools that support the creation of graphical
+  representations of various system elements such as 
+  process flow, data relationships, and program structures.
+
+
+c- (CASE tools designed to support the information planning
+   and the project identification and selection, project
+  initiation and planning,analysis, and design phases of 
+  the systems development life cycle)
+
+
+d-CASE tools designed to support the implementation 
+  and maintenance phases of the systems development 
+  life cycle
+
+=============================================================
+
+
+15)Which of the following best defines lower CASE?
+
+a-An automated systems development environment that provides
+  numerous tools to create diagrams, forms, and reports; 
+  provides analysis, reporting, and code generation 
+  facilities and seamlessly shares and integrates data
+  across and between tools
+
+
+b-CASE tools that support the creation of graphical
+  representations of various system elements such as
+  process flow, data relationships, and program structures.
+
+
+c-(CASE tools designed to support the information planning
+  and the project identification and selection, project
+  initiation and planning, analysis, and design phases of
+  the systems development life cycle.)
+
+
+d-CASE tools designed to support the implementation
+  and maintenance phases of the systems development
+  life cycle.
+
+=============================================================
+
+
+16)Which of the following generates reports that help
+   you identify possible inconsistencies, redundancies,
+   and omissions in diagrams, forms, and reports?
+
+a-Documentation generators.
+
+b-Form and report generators
+
+c-Analysis tools&nbsp
+
+d-(Diagramming tools)
+
+=============================================================
+
+
+17)Information repository refers to:
+
+a-CASE tools that enable automatic checking for
+  incomplete, inconsistent, or incorrect specifications
+  in diagrams, forms, and reports
+
+
+b-CASE tools that support the creation of graphical 
+  representations of various system elements such as 
+  process flow, data relationships, and program
+  structures&nbsp
+
+
+c-(Automated tools used to manage and control access
+  to organizational business information and application
+  portfolio as components within a comprehensive repository)
+
+
+d-A feature performed by a data dictionary that enables
+  one description of a data item to be stored and accessed
+  by all individuals so that a single definition for
+  a data item is established and used
+
+=============================================================
+
+
+18)A feature performed by a data dictionary that enables
+   one description of a data item to be stored and 
+   accessed by all individuals so that a single definition
+   for a data item is established and used:
+
+
+a-CASE tools that enable the easy production of
+ both technical and user documentation in standard formats .
+
+
+b-CASE tools that enable the automatic generation
+  of program and database definition code directly
+  from the design documents, diagrams,forms, and
+  reports stored in the repository .
+
+
+c-(CASE tools that support the creation of system forms
+  and reports in order to prototype how systems will
+  "look and feel" to users )
+
+
+d-CASE tools that support the creation of
+  graphical representations of various system elements
+  such as process flow, data relationships, and
+  program structures .
+
+=============================================================
+
+
+19)Software model would you choose If the University
+   decided to develop a database management system
+   to automate the student and instructor records
+   in-house (local team).
+
+a-Spiral development model
+
+b-Reuse oriented Model
+
+c-Evolutionary development Mode
+
+d-(Waterfall model)
+
+=============================================================
+
+
+20)Good interview guideline is:
+
+a-(Phrasing the question to illicit the correct response)
+
+b-Typing your notes within two weeks of the interview
+
+c-Establishing expectation levels about the new system.
+
+d-Seeking a variety of perspectives from the interviews
+
+=============================================================
+
+
+21)Traditional methods of collecting systems requirements
+  include:
+
+a-Individual interviews
+
+b-Observing workers
+
+c-Group interviews
+
+d-(All of the above)
+
+=============================================================
+
+
+22)One advantage of open-ended questions in an interview is:
+
+a-A significant amount of time can be devoted to each
+  interviewes
+
+b-The interviewee is restricted to providing just
+ a few answers
+
+c-(Previously unknown information can result)
+
+d-They work well when the answers to the questions are
+  well known
+
+=============================================================
+
+
+23)Interviewing several key people at once refers to:?
+
+a-Stakeholder interviewing
+
+b-(Group interviewing)
+
+c-User interviewing
+
+d-Strategic interviewing
+
+=============================================================
+
+
+24)Which of the following documents are useful
+ in understanding possible future system requirements?
+
+a-Written work procedures
+
+b-Documents that describe the current information system
+
+c-Reports generated by current systems
+
+d-(All of the above)
+
+=============================================================
+
+
+25)Software Requirement Specification (SRS) is
+ a document that contains:?
+
+a-Functional Requirements
+
+b-Non-functional Requirements.
+
+c-A+B
+
+d-(all of the above)
+
+=============================================================
+
+
+26) Acceptance tests are normally conducted by the?
+
+a-Developer
+
+b-(End users)
+
+c-Test team
+
+d-Systems engineers
+
+=============================================================
+
+
+27)If it's unlikely that major changes in requirements
+   will be requested as the project proceeds,
+   the best software process model is?
+
+a-Spiral development model
+
+b-Incremental development
+
+c-Evolutionary development Model
+
+d-(Waterfall model)
+
+
+=============================================================
+
+
+28)Software model would you choose if you suggest
+ for developing an e-commerce system as a "small system"?
+
+a-Waterfall model
+
+b-Spiral development model
+
+c-incremental development
+
+d-(Prototyping Model)
+
+=============================================================
+
+
+29)Software model would you choose if you have been
+   hired by a client to design and build a program. 
+   As you sit down with the client to learn what his 
+   needs are, you get the feeling he is sure of exactly
+   what the software should look like?
+
+a-Spiral development model
+
+b-Incremental development
+
+c-Reuse oriented Model
+
+d-(Waterfall model)
+
+=============================================================
+
+30)Software model would you choose if you need to buy 
+   a similar system at another university and modify it to
+   match the local requirements for your university?
+
+a-waterfall model
+
+b-Spiral development model
+
+c-Evolutionary development Model
+
+d-(Reuse oriented Model)
+
+
+=============================================================
+
+
+31)If the plan is to have a serves as a mechanism
+   for identifying software requirements The best software
+    process model is
+
+a-Waterfall model
+
+b-Spiral development model
+
+c-Incremental development
+
+d-(Evolutionary development Model)
+
+=============================================================
+
+
+32)Software model would you choose if the authors
+   suggest processes that are "focused on flexibility and
+   extensibility rather than on high quality”
+
+a-Waterfall model
+
+b-Reuse oriented Model
+
+c-Incremental development
+
+d-(Evolutionary development Model)
+
+=============================================================
+
+
+33)Prototype can be a set of pictures of the system
+   shown to users in sequence to explain what would happen
+  when the system runs
+
+a-true
+
+b-(false)
+
+=============================================================
+
+
+34)software engineering umbrella activities are only
+   applied during the initial phases of software development
+   projects.
+
+a-true
+
+b-(false)
+
+=============================================================
+
+35)The best software process model is one that has been
+ created by the people who will actually be doing the work.
+
+a-(true)
+
+b-false
+
+=============================================================
+
+
+36)stakeholder is anyone who will purchase the completed
+   software system under development 
+
+a-true
+
+b-(false)
+
+=============================================================
+
+37)During requirements determination, information can be
+   gathered from users of the current system,forms, reports,
+   and procedures.
+
+a-(true)
+
+b-false
+
+=============================================================
+
+
+38)Neutrality is a guideline for effective interviewing:
+
+a-(true)
+
+b-false
+
+=============================================================
+39)Listen carefully and take notes is a guideline
+  for effective interviewing
+a-(true)
+
+b-false
+
+=============================================================
+
+
+40)Open-ended questions are usually used to probe for
+   information when you cannot anticipate all possible 
+   responses or when you do not know the precise question
+   to ask
+
+a-(true)
+
+b-false
+
+=============================================================
+
+41)close-ended questions work well when the major answers to the
+   questions are known.
+
+a-(true)
+
+b-false
+
+=============================================================
+
+42)While being observed,employees may follow exact
+   procedures more carefully than they typically 
+
+
+a-(true)
+
+b-false
+
+=============================================================
+
+
+43)When comparing observations and document analysis, 
+   the expense of observations is rated moderate.
+
+a-true
+
+b-(false)
+
+=============================================================
+
+44)Traditional methods of collecting systems requirements
+ include?
+
+a-Rapid application development
+
+b-Joint application design
+
+c-agile methodologies
+
+d-(interviews)
+
+e-Prototyping
+
+=============================================================
+
+45)Which of the following is a traditional method of 
+collecting systems requirements?
+
+a-(observations)
+
+b-prototyping
+
+c-Rapid Application Development
+
+d-business process reengineering
+
+e-Joint Application Design
+
+=============================================================
+
+46)Questions in interviews and on questionnaires
+ that have no prespecified answers are?
+
+a-exploratory questions
+
+b-nonspecific questions
+
+c-closed-ended questions
+
+d-investigative questions
+
+e-(open-ended questions)
+
+=============================================================
+
+47)One advantage of open-ended questions in an interview is?
+
+a-they work well when the answers to the questions
+ are well known
+
+b-the interviewee is restricted to providing just
+ a few answers
+
+c-they are not biased
+
+d-a significant amount of time can be devoted to
+ each interviewee
+
+e-(previously unknown information can result)
+
+=============================================================
+
+48)Questions in interviews and on questionnaires asking
+ those responding to choose from among a set of specified
+ responses are?
+
+a-(closed-ended questions)
+
+b-open-ended questions
+
+c-specific questions
+
+d-stratified questions
+
+e-structured questions
+
+=============================================================
+
+49)When comparing observations and document analysis?
+
+a-the expense of the observation method is quite low
+
+b-the chances of probing and clarification are good
+ with document analysis
+
+c-(the potential audience of the observation method
+ is limited)
+
+d-the time required to conduct observations
+ compared to document analysis is low
+
+e-a clear commitment is discernible
+
+=============================================================
+
+50)Drawbacks to prototyping include?
+
+a-a tendency to avoid creating formal documentation
+ of systems requirements which can then make the
+ system more difficult to develop into a fully
+ working system
+
+b-prototypes becoming very idiosyncratic to
+ the initial user and difficult to diffuse or
+ adapt to other potential users
+
+c-checks in the SDLC are bypassed so that some more
+ subtle, but still important, system requirements
+ might be forgotten
+
+d-prototypes are often built as stand-alone systems
+
+e-(all of the above)
+
+=============================================================
+
+51)Which is not a good guideline for formatting
+ questionnaires?
+
+a-make it easy for respondents to clearly
+ mark their answers
+
+b-(utilizing as much available space as possible)
+
+c-allowing adequate space for responses
+
+d-be consistent in style
+
+e-allowing ample white space
+
+=============================================================
+
+52)The repository of all data definitions for all
+ organizational applications is the:
+
+a-(data dictionary)
+
+b-database
+
+c-information repository
+
+d-data storage location
+
+=============================================================

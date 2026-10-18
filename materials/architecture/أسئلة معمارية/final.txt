@@ -1,0 +1,557 @@
+final:
+1)In which object-oriented systems development life
+ cycle phase are the application-oriented analysis
+ models adapted and refined to suit the target
+ implementation environment?
+
+a.Analysis
+b.(Design)
+c.Implementationd.Selectione.Planning
+
+=============================================================
+2)Which of the following is a true statement?
+
+a-The UML notation promotes communication among key persons
+ involved in the development effort
+
+b-The UML notation is useful for graphically depicting
+ object-oriented analysis and design models
+
+c-The UML notation allows you to specify the requirements
+ of a system and capture design decisions
+
+d-The UML notation allows the modeler to specify,
+ visualize,and construct the artifacts of software
+ systems, as well as business models
+
+e-All of the above are true statements
+
+=============================================================
+
+3)A notation that allows the modeler to specify, visualize,
+ and construct the artifacts of software systems, as well as
+ business models, best defines
+
+a-logic modeling
+
+b-(Unified Modeling Language)
+
+c-Structured English
+
+d-pseudocode
+
+=============================================================
+
+4)Which of the following represent dynamic models of how
+ objects change their states in response to events?
+
+a-Sequence diagrams
+
+b-Component diagrams
+
+c-Class diagrams
+
+d-Use cases
+
+e-(State diagrams)
+
+=============================================================
+	
+5)Which of the following represent dynamic models of
+ interactions between objects?
+
+a-Use cases
+
+b-Class diagrams
+
+c-State diagrams
+
+d-Component diagrams
+
+e-Sequence diagrams
+
+=============================================================
+
+6)Which of the following show the static structure
+ of data and the operations that act on the data?
+
+a-Sequence diagrams
+
+b-Use cases
+
+c-(Class diagrams)
+
+d-State diagrams
+
+e-Component diagrams
+
+=============================================================
+
+7)Generally speaking, a use-case model is developed
+ during the?
+
+a-selection phase
+
+b-logical design phase
+
+c-(analysis phase)
+
+d-implementation phase
+
+e-production phase
+
+=============================================================
+8)Referencing use-case modeling, an external entity
+ that interacts with the system best defines?
+
+a-event
+
+b-player
+
+c-target
+
+d-(actor)
+
+e-source
+
+=============================================================
+
+9)A complete sequence of related actions initiated by
+ an actor best describes?
+
+a-aggregation
+
+b-class
+
+c-(use case)
+
+d-sequence diagram
+
+e-object
+
+=============================================================
+
+10)On a use-case diagram, an actor can represent?
+
+a-a human
+
+b-a hardware device
+
+c-an organization
+
+d-another system
+
+e-(all of the above)
+
+=============================================================
+
+11)A diagram that depicts the use cases and actors for
+ a system is called a?
+
+a-(use-case diagram)
+
+b-state transition diagram 
+
+c-component diagram
+
+d-sequence diagram
+
+e-deployment diagram
+
+=============================================================
+
+12)A type of use-case relationship that adds new behaviors
+ or actions is a?
+
+a-abstract relationship
+
+b-generalized relationship
+
+c-(extends relationship)
+
+d-recursive relationship
+
+
+e-complex relationship
+
+=============================================================
+
+13)On a use-case diagram, the type of relationship that
+ arises when one use case references another use case is
+ called a?
+a-recursive relationship
+
+b-working relationship
+
+c-extends relationship
+
+d-definitive relationship
+
+e-(include relationship)
+
+=============================================================
+
+14)An entity that has a well-defined role in the application
+ domain and has state, behavior, and identity defines?
+
+a-attribute
+
+b-component
+
+c-actor
+
+d-class
+
+e-(object)
+
+=============================================================
+
+15)In UML, an object class is represented by?
+
+a-(a rectangle with three compartments separated by
+ horizontal lines)
+
+b-a circle in which the activity name is recorded
+
+c-a set of brackets in which the event name is recorded
+
+d-a double-lined ellipse in which the activity name
+ is recorded
+
+e-a diamond in which the activity name is recorded
+
+=============================================================
+
+16)Showing the static structure of an object-oriented
+ model,the object classes, their internal structure,
+ and the relationships in which they participate is the
+ purpose of a
+
+a-use-case diagram
+
+b-(class diagram)
+
+c-component diagram
+
+d-collaboration diagram
+
+e-sequence diagram
+
+=============================================================
+
+17)A relationship between object classes best defines?
+
+a-encapsulation
+
+b-integration
+
+c-(association)
+
+d-composition
+
+e-scope
+
+=============================================================
+
+18)The degree of an association relationship can be?
+
+a-ternary
+
+b-higher (n-ary)
+
+c-binary
+
+d-unary
+
+e-(all of the above)
+
+=============================================================
+
+19)Which of the following depicts the various state
+ transitions or changes an object can experience during
+ its lifetime, along with the events that cause those
+ transitions?
+
+a-(State diagram)
+
+b-Collaboration diagram
+
+c-Entity relationship diagram
+
+d-Component diagram
+
+e-Sequence diagram
+
+=============================================================
+
+20)Which of the following depicts the interactions
+ among objects during a certain period of time?
+
+a-Data-flow diagrams
+
+b-Collaboration diagrams
+
+c-(Sequence diagrams)
+
+d-Class diagrams
+
+e-Use-case diagrams
+
+=============================================================
+21)A type of message in which the caller has to wait
+ for the receiving object to finish executing the called
+ operation before it can resume execution itself is a(n)?
+
+a-asynchronous message
+
+b-half-duplex message
+
+c-simple message
+
+d-packet
+
+e-(synchronous message)
+
+=============================================================
+
+22)Techniques developed to keep the analysis effort minimal
+, yet still effective include?
+
+a-document analysis
+
+b-(JAD)
+
+c-observations
+
+d-questionnaires
+
+e-interviewing
+
+=============================================================
+
+23)Traditional methods of collecting systems requirements
+ include?
+
+a-Rapid application development
+
+b-Joint application design
+
+c-agile methodologies
+
+d-(interviews)
+
+e-Prototyping
+
+=============================================================
+
+24)Which of the following is a traditional method of 
+collecting systems requirements?
+
+a-(observations)
+
+b-prototyping
+
+c-Rapid Application Development
+
+d-business process reengineering
+
+e-Joint Application Design
+
+=============================================================
+
+25)Questions in interviews and on questionnaires
+ that have no prespecified answers are?
+
+a-exploratory questions
+
+b-nonspecific questions
+
+c-closed-ended questions
+
+d-investigative questions
+
+e-(open-ended questions)
+
+=============================================================
+
+26)One advantage of open-ended questions in an interview is?
+
+a-they work well when the answers to the questions
+ are well known
+
+b-the interviewee is restricted to providing just
+ a few answers
+
+c-they are not biased
+
+d-a significant amount of time can be devoted to
+ each interviewee
+
+e-(previously unknown information can result)
+
+=============================================================
+
+27)Which of the following can be considered an advantage
+ of open-ended questions?
+
+a-Open-ended questions often put the interviewee at ease
+
+b-The interviewee has a sense of involvement and
+ control in the interview
+
+c-Interviewees can respond in their own words
+ using their own structure
+
+d-The interviewer can explore unexpected lines of inquiry
+
+e-(All of the above)
+
+=============================================================
+
+
+27)Which of the following can be considered an advantage
+ of open-ended questions?
+
+a-Open-ended questions often put the interviewee at ease
+
+b-The interviewee has a sense of involvement and
+ control in the interview
+
+c-Interviewees can respond in their own words
+ using their own structure
+
+d-The interviewer can explore unexpected lines of inquiry
+
+e-(All of the above)
+
+=============================================================
+
+28)Questions in interviews and on questionnaires asking
+ those responding to choose from among a set of specified
+ responses are?
+
+a-(closed-ended questions)
+
+b-open-ended questions
+
+c-specific questions
+
+d-stratified questions
+
+e-structured questions
+
+=============================================================
+
+29)When comparing observations and document analysis?
+
+a-the expense of the observation method is quite low
+
+b-the chances of probing and clarification are good
+ with document analysis
+
+c-(the potential audience of the observation method
+ is limited)
+
+d-the time required to conduct observations
+ compared to document analysis is low
+
+e-a clear commitment is discernible
+
+=============================================================
+
+30)Drawbacks to prototyping include?
+
+a-a tendency to avoid creating formal documentation
+ of systems requirements which can then make the
+ system more difficult to develop into a fully
+ working system
+
+b-prototypes becoming very idiosyncratic to
+ the initial user and difficult to diffuse or
+ adapt to other potential users
+
+c-checks in the SDLC are bypassed so that some more
+ subtle, but still important, system requirements
+ might be forgotten
+
+d-prototypes are often built as stand-alone systems
+
+e-(all of the above)
+
+=============================================================
+
+31)Which is not a good guideline for formatting
+ questionnaires?
+
+a-make it easy for respondents to clearly
+ mark their answers
+
+b-(utilizing as much available space as possible)
+
+c-allowing adequate space for responses
+
+d-be consistent in style
+
+e-allowing ample white space
+
+=============================================================
+
+32)Which of the following is not one of the main
+ components of UML?
+
+a-Diagrams
+
+b-Relationships
+
+c-Things
+
+d-(Entities)
+
+=============================================================
+
+33)CASE tools that enable the automatic generation of
+ program and database definition code directly from the
+design documents, diagrams, forms, and reports
+ stored in the repository are:?
+
+a-documantation generators
+
+b-(code generators)
+
+c-compilers
+
+d-interpreters
+
+=============================================================
+
+34)CASE tools that enable the easy production of both
+ technical and user documentation in standard formats are:
+
+a-diagramming tools&nbsp
+
+b-documentation generators
+
+c-analysis tools&nbsp
+
+d-form and report generators
+
+=============================================================
+
+35)The repository of all data definitions for all
+ organizational applications is the:
+
+a-(data dictionary)
+
+b-database
+
+c-information repository
+
+d-data storage location
+
+=============================================================
+36)lack of confidence in CASE products
+a-the high cost of training personnel
+b-
+the high cost of purchasing
+c-(all of the above)
+=====
