@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>بوابة كلية تكنولوجيا المعلومات - Source Team | IT-BAU Student Portal</title>
+  <meta name="description" content="البوابة الطلابية الرسمية المخصصة لطلبة كلية تكنولوجيا المعلومات في جامعة البلقاء التطبيقية برعاية Source Team. تخصصات، خريطة الجامعة، حاسبة المعدل، ومواعيد الامتحانات." />
+  
+  <!-- Favicon & Brand Icons -->
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="img/source_team_logo.png" />
+  
+  <!-- FontAwesome Icons & Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css?v=1002" />
+
+  <!-- Forced Light Theme Inline Style (Overrides Browser Cache Instantly) -->
+  <style>
+    :root {
+      --bg-primary: #f8efe8 !important;
+      --bg-secondary: #ffffff !important;
+      --bg-tertiary: #f2e6dc !important;
+      --bg-card: #ffffff !important;
+      --bg-card-hover: #ffffff !important;
+      
+      --primary-green: #215a36 !important;
+      --primary-green-light: #2d7a4a !important;
+      --primary-green-dark: #163e24 !important;
+      --primary-green-glow: rgba(33, 90, 54, 0.2) !important;
+      
+      --accent-orange: #c85a17 !important;
+      --accent-orange-light: #e06d28 !important;
+      --accent-orange-dark: #9e430c !important;
+      --accent-orange-glow: rgba(200, 90, 23, 0.25) !important;
+      
+      --text-main: #1d2921 !important;
+      --text-muted: #526357 !important;
+      --text-dim: #7a8c80 !important;
+      --text-dark: #0f1712 !important;
+      
+      --border-color: rgba(33, 90, 54, 0.15) !important;
+      --shadow-card: 0 8px 25px -5px rgba(29, 41, 33, 0.08) !important;
+    }
+
+    body {
+      background-color: #f8efe8 !important;
+      color: #1d2921 !important;
+      background-image: 
+        radial-gradient(circle at 10% 10%, rgba(33, 90, 54, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 90% 90%, rgba(200, 90, 23, 0.05) 0%, transparent 50%),
+        url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cg font-family='Consolas, Monaco, monospace' font-size='12' font-weight='bold'%3E%3Ctext x='15' y='25' fill='%23215a36' fill-opacity='0.07'%3E0 1 0 1 1 0 0 1%3C/text%3E%3Ctext x='135' y='45' fill='%23c85a17' fill-opacity='0.09'%3E%26lt%3B/%26gt%3B%3C/text%3E%3Ctext x='25' y='65' fill='%23c85a17' fill-opacity='0.08'%3E1 0 1 0 0 1 1 0%3C/text%3E%3Ctext x='140' y='85' fill='%23215a36' fill-opacity='0.09'%3E%7B 01 %7D%3C/text%3E%3Ctext x='10' y='105' fill='%23215a36' fill-opacity='0.07'%3E0 1 1 0 1 0 0 1%3C/text%3E%3Ctext x='130' y='125' fill='%23c85a17' fill-opacity='0.09'%3E%26lt%3BIT-BAU%26gt%3B%3C/text%3E%3Ctext x='20' y='145' fill='%23c85a17' fill-opacity='0.08'%3E1 1 0 0 1 0 1 0%3C/text%3E%3Ctext x='145' y='165' fill='%23215a36' fill-opacity='0.09'%3Efn()%3C/text%3E%3Ctext x='15' y='185' fill='%23215a36' fill-opacity='0.07'%3E0 1 0 1 0 1 1 0%3C/text%3E%3C/g%3E%3C/svg%3E") !important;
+      background-attachment: fixed !important;
+    }
+
+    .header {
+      background: rgba(255, 255, 255, 0.95) !important;
+      border-bottom: 1.5px solid rgba(33, 90, 54, 0.15) !important;
+      box-shadow: 0 4px 20px rgba(33, 90, 54, 0.05) !important;
+    }
+
+    .logo-title .green-part { color: #215a36 !important; }
+    .logo-title .orange-part { color: #c85a17 !important; }
+
+    .search-input {
+      background: #edf3ee !important;
+      border: 1.5px solid rgba(33, 90, 54, 0.15) !important;
+      color: #1d2921 !important;
+    }
+
+    .hero-title {
+      color: #1d2921 !important;
+    }
+
+    .hero-title .highlight-green { color: #215a36 !important; }
+    .hero-title .highlight-orange { color: #c85a17 !important; }
+
+    .nav-card {
+      background: #ffffff !important;
+      border: 1.5px solid rgba(33, 90, 54, 0.15) !important;
+      box-shadow: 0 8px 25px -5px rgba(29, 41, 33, 0.08) !important;
+    }
+
+    .nav-card:hover {
+      border-color: #c85a17 !important;
+      box-shadow: 0 15px 35px -5px rgba(200, 90, 23, 0.18) !important;
+    }
+
+    .card-title { color: #1d2921 !important; }
+    .card-desc { color: #526357 !important; }
+    .card-footer-link { color: #215a36 !important; }
+
+    .card-icon {
+      background: rgba(33, 90, 54, 0.08) !important;
+      border: 1.5px solid rgba(33, 90, 54, 0.2) !important;
+      color: #215a36 !important;
+    }
+
+    .calendar-card-container, .modal-container, .drawer-content {
+      background: #ffffff !important;
+      border-color: #215a36 !important;
+      color: #1d2921 !important;
+    }
+
+    .tab-btn {
+      background: #ffffff !important;
+      color: #526357 !important;
+      border: 1.5px solid rgba(33, 90, 54, 0.15) !important;
+    }
+
+    .tab-btn.active {
+      background: linear-gradient(135deg, #215a36, #163e24) !important;
+      color: #ffffff !important;
+    }
+
+    .footer {
+      background: #ffffff !important;
+      border-top: 4px solid #215a36 !important;
+    }
+
+    .footer-col h4 {
+      color: #215a36 !important;
+    }
+
+    .footer-links a {
+      color: #526357 !important;
+    }
+
+    .footer-links a:hover {
+      color: #c85a17 !important;
+    }
+
+    .footer-bottom-bar {
+      background: linear-gradient(90deg, #163e24, #215a36, #c85a17) !important;
+      color: #ffffff !important;
+    }
+
+    /* ==========================================
+       Source Team VIP Spotlight Banner Section
+       ========================================== */
+    .source-team-spotlight {
+      margin-top: -1.75rem;
+      margin-bottom: 2.5rem;
+      position: relative;
+      z-index: 10;
+    }
+
+    .source-spotlight-card {
+      background: linear-gradient(135deg, #ffffff 0%, #faf5f0 55%, #f5ece2 100%) !important;
+      border: 2px solid rgba(200, 90, 23, 0.28) !important;
+      border-radius: 20px !important;
+      padding: 1.5rem 1.85rem !important;
+      box-shadow: 0 12px 35px -8px rgba(33, 90, 54, 0.12), 0 4px 15px rgba(200, 90, 23, 0.08) !important;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.35s ease;
+    }
+
+    .source-spotlight-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 4.5px;
+      background: linear-gradient(90deg, #215a36 0%, #c85a17 50%, #215a36 100%);
+    }
+
+    .source-spotlight-card:hover {
+      border-color: #c85a17 !important;
+      box-shadow: 0 16px 42px -6px rgba(200, 90, 23, 0.22) !important;
+      transform: translateY(-2px);
+    }
+
+    .spotlight-brand {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .spotlight-logo-wrapper {
+      position: relative;
+      width: 76px;
+      height: 76px;
+      flex-shrink: 0;
+    }
+
+    .spotlight-logo {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: contain;
+      border: 3px solid #215a36;
+      background: #ffffff;
+      box-shadow: 0 6px 18px rgba(33, 90, 54, 0.2);
+    }
+
+    .spotlight-badge-pulse {
+      position: absolute;
+      bottom: 2px;
+      left: 2px;
+      width: 14px;
+      height: 14px;
+      background: #22c55e;
+      border: 2.5px solid #ffffff;
+      border-radius: 50%;
+      box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+      animation: pulseGreen 2s infinite;
+    }
+
+    @keyframes pulseGreen {
+      0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+      70% { box-shadow: 0 0 0 8px rgba(34, 197, 94, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+    }
+
+    .spotlight-title-group {
+      flex: 1;
+      min-width: 260px;
+    }
+
+    .spotlight-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.78rem;
+      font-weight: 800;
+      color: #c85a17;
+      background: rgba(200, 90, 23, 0.1);
+      padding: 2px 12px;
+      border-radius: 99px;
+      margin-bottom: 0.4rem;
+      border: 1px solid rgba(200, 90, 23, 0.25);
+    }
+
+    .spotlight-title {
+      font-size: 1.4rem;
+      font-weight: 900;
+      color: #1d2921;
+      margin: 0 0 0.4rem 0;
+      line-height: 1.3;
+    }
+
+    .spotlight-title .green-text { color: #215a36; }
+    .spotlight-title .orange-text { color: #c85a17; }
+
+    .spotlight-desc {
+      font-size: 0.9rem;
+      color: #526357;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .spotlight-pillars {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+    }
+
+    .pillar-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #ffffff;
+      border: 1.5px solid rgba(33, 90, 54, 0.16);
+      padding: 0.45rem 1rem;
+      border-radius: 99px;
+      font-size: 0.84rem;
+      font-weight: 800;
+      color: #1d2921;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+      transition: all 0.2s ease;
+    }
+
+    .pillar-pill:hover {
+      border-color: #c85a17;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(200, 90, 23, 0.12);
+    }
+
+    .pillar-pill .text-green { color: #215a36; }
+    .pillar-pill .text-orange { color: #c85a17; }
+
+    .spotlight-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      flex-wrap: wrap;
+      padding-top: 0.6rem;
+      border-top: 1px dashed rgba(33, 90, 54, 0.18);
+    }
+
+    .btn-spotlight-primary {
+      background: linear-gradient(135deg, #215a36 0%, #153b23 100%) !important;
+      color: #ffffff !important;
+      border: none;
+      padding: 0.68rem 1.35rem;
+      border-radius: 8px;
+      font-weight: 800;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(33, 90, 54, 0.25);
+      transition: all 0.25s ease;
+      font-family: inherit;
+    }
+
+    .btn-spotlight-primary:hover {
+      background: linear-gradient(135deg, #c85a17 0%, #9e430c 100%) !important;
+      box-shadow: 0 6px 20px rgba(200, 90, 23, 0.35);
+      transform: translateY(-2px);
+    }
+
+    .btn-spotlight-secondary {
+      background: #ffffff !important;
+      color: #c85a17 !important;
+      border: 1.5px solid #c85a17 !important;
+      text-decoration: none;
+      padding: 0.62rem 1.25rem;
+      border-radius: 8px;
+      font-weight: 800;
+      font-size: 0.88rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      transition: all 0.25s ease;
+      font-family: inherit;
+    }
+
+    .btn-spotlight-secondary:hover {
+      background: #c85a17 !important;
+      color: #ffffff !important;
+      box-shadow: 0 4px 15px rgba(200, 90, 23, 0.25);
+      transform: translateY(-2px);
+    }
+
+    .btn-spotlight-telegram {
+      background: #ffffff !important;
+      color: #229ed9 !important;
+      border: 1.5px solid #229ed9 !important;
+      text-decoration: none;
+      padding: 0.62rem 1.25rem;
+      border-radius: 8px;
+      font-weight: 800;
+      font-size: 0.88rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      transition: all 0.25s ease;
+      font-family: inherit;
+    }
+
+    .btn-spotlight-telegram:hover {
+      background: #229ed9 !important;
+      color: #ffffff !important;
+      box-shadow: 0 4px 15px rgba(34, 158, 217, 0.25);
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. HEADER (الهيدر الرئيسي - Source Team Branding)
+       ========================================================================== -->
+  <header class="header">
+    <div class="container header-inner">
+      
+      <!-- Logo & Name (Logo Source Team: Green & Orange) -->
+      <a href="#" class="brand-logo" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;">
+        <img src="img/source_team_logo.png?v=2" alt="Source Team Logo" style="height: 48px; width: 48px; object-fit: contain; border-radius: 50%; border: 2px solid var(--primary-green); box-shadow: 0 4px 12px rgba(33,90,54,0.15); background: #ffffff;" />
+        <div class="logo-text">
+          <div class="logo-title"><span class="green-part">Source</span> <span class="orange-part">Team</span></div>
+          <div class="logo-subtitle">
+            <span>IT COLLEGE - BAU</span>
+            <span class="source-badge-tag">SQ</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Quick Search Bar (شريط البحث) -->
+      <div class="header-search">
+        <div class="search-input-wrapper">
+          <input type="text" id="searchInput" class="search-input" placeholder="ابحث عن مادة، تخصص، كلية، مدرس، أو امتحان..." autocomplete="off" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <!-- Favorites Button (زر المفضلة) -->
+      <div class="header-actions">
+        <button id="favToggleBtn" class="btn-favorites-toggle">
+          <i class="fa-solid fa-star"></i>
+          <span>المفضلة السريعة</span>
+          <span id="favBadge" class="fav-badge-count">0</span>
+          <span class="icon-toggle"><i class="fa-solid fa-plus"></i></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO BANNER
+       ========================================================================== -->
+  <section class="hero-banner">
+    <div class="container">
+      <div class="hero-badge">
+        <i class="fa-solid fa-microchip"></i>
+        <span>البوابة الرقمية لطلبة كلية تكنولوجيا المعلومات | Source Team - BAU</span>
+      </div>
+      <h1 class="hero-title">
+        مرحباً بك في بوابة <span class="highlight-green">IT-BAU</span> الرقمية <br/>
+        برعاية <span class="highlight-orange">Source Team</span>
+      </h1>
+      <p class="hero-subtitle">منصتك المتكاملة للوصول السريع للخطط الدراسية، الساعات المكتبية للدكاترة، خريطة الجامعة الشاملة، حاسبة المعدل، والتقويم الأكاديمي.</p>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       2. MAIN NAVIGATION CARDS GRID (البطاقات الرئيسية)
+       ========================================================================== -->
+  <main class="cards-section">
+    <div class="container">
+      <div class="cards-grid">
+        
+        <!-- Card 1: التخصصات والخطط الدراسية -->
+        <article class="nav-card" data-modal="majors">
+          <div class="card-top">
+            <div class="card-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <button class="card-favorite-btn" data-id="card-majors" data-type="card" data-title="التخصصات والخطط" data-icon="fa-solid fa-graduation-cap" title="إضافة للمفضلة">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </div>
+          <div>
+            <h3 class="card-title">التخصصات والخطط</h3>
+            <p class="card-desc">تصفح تخصصات الكلية، الساعات المعتمدة، معاينة وتحميل الخطط الشجرية لجيل 2007 وما بعد وجيل 2006 فما قبل.</p>
+          </div>
+          <div class="card-footer-link">
+            <span>استعراض التخصصات والخطط</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+        </article>
+
+        <!-- Card 2: المواد الدراسية (دليل الكلية الشامل) -->
+        <article class="nav-card" data-modal="courses">
+          <div class="card-top">
+            <div class="card-icon">
+              <i class="fa-solid fa-book-open"></i>
+            </div>
+            <button class="card-favorite-btn" data-id="card-courses" data-type="card" data-title="المواد الدراسية" data-icon="fa-solid fa-book-open" title="إضافة للمفضلة">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </div>
+          <div>
+            <h3 class="card-title">المواد الدراسية</h3>
+            <p class="card-desc">دليل مواد الكلية لخطتي جيل 2007 وما بعد وجيل 2006 فما قبل، مع تفريغ ملفات ومصادر خطة 2006 بالكامل داخل كل مادة.</p>
+          </div>
+          <div class="card-footer-link">
+            <span>تصفح دليل المواد والدرايف</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+        </article>
+
+        <!-- Card 3: خريطة الجامعة -->
+        <article class="nav-card" data-modal="map">
+          <div class="card-top">
+            <div class="card-icon">
+              <i class="fa-solid fa-map-location-dot"></i>
+            </div>
+            <button class="card-favorite-btn" data-id="card-map" data-type="card" data-title="خريطة الجامعة" data-icon="fa-solid fa-map-location-dot" title="إضافة للمفضلة">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </div>
+          <div>
+            <h3 class="card-title">خريطة الجامعة</h3>
+            <p class="card-desc">دليل كليات الجامعة، العمادات، الأكاديميات، والمرافق داخل الحرم الجامعي.</p>
+          </div>
+          <div class="card-footer-link">
+            <span>استكشاف الخريطة والكليات</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+        </article>
+
+        <!-- Card 4: تواصل مع مدرسك -->
+        <article class="nav-card" data-modal="doctors">
+          <div class="card-top">
+            <div class="card-icon">
+              <i class="fa-solid fa-user-doctor"></i>
+            </div>
+            <button class="card-favorite-btn" data-id="card-doctors" data-type="card" data-title="تواصل مع مدرسك" data-icon="fa-solid fa-user-doctor" title="إضافة للمفضلة">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </div>
+          <div>
+            <h3 class="card-title">تواصل مع مدرسك</h3>
+            <p class="card-desc">دليل للوصول لبيانات أعضاء الهيئة التدريسية، الإيميلات الرسمية، وأوقات الساعات المكتبية.</p>
+          </div>
+          <div class="card-footer-link">
+            <span>دليل أعضاء التدريس</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+        </article>
+
+        <!-- Card 5: حساب المعدل -->
+        <article class="nav-card" data-modal="gpa">
+          <div class="card-top">
+            <div class="card-icon">
+              <i class="fa-solid fa-calculator"></i>
+            </div>
+            <button class="card-favorite-btn" data-id="card-gpa" data-type="card" data-title="حساب المعدل" data-icon="fa-solid fa-calculator" title="إضافة للمفضلة">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </div>
+          <div>
+            <h3 class="card-title">حساب المعدل</h3>
+            <p class="card-desc">أداة إلكترونية حاسبة لحساب المعدل الفصلي والمعدل التراكمي (GPA) بشكل دقيق ومباشر.</p>
+          </div>
+          <div class="card-footer-link">
+            <span>فتح حاسبة المعدل</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+        </article>
+
+        <!-- Card 6: فريق Source Team -->
+        <article class="nav-card card-source-team" data-modal="sourceTeam" style="border: 1.5px solid rgba(200, 90, 23, 0.3);">
+          <div class="card-top">
+            <div class="card-icon" style="background: rgba(200, 90, 23, 0.1) !important; color: #c85a17 !important; border-color: rgba(200, 90, 23, 0.28) !important;">
+              <i class="fa-solid fa-users-gear"></i>
+            </div>
+            <button class="card-favorite-btn" data-id="card-source-team" data-type="card" data-title="فريق Source Team" data-icon="fa-solid fa-users-gear" title="إضافة للمفضلة">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </div>
+          <div>
+            <h3 class="card-title">فريق <span style="color: #215a36;">Source</span> <span style="color: #c85a17;">Team</span></h3>
+            <p class="card-desc">التعريف بالفريق الطلابي والأكاديمي، لجان العمل الأربعة، بنوك الأسئلة ودرايف المواد، وقنوات التواصل الرسمية.</p>
+          </div>
+          <div class="card-footer-link" style="color: #c85a17 !important;">
+            <span>تعرّف على الفريق واللجان</span>
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ==========================================================================
+       3. ACADEMIC CALENDAR SECTION (قسم التقويم الجامعي)
+       ========================================================================== -->
+  <section class="calendar-section" id="calendarSection">
+    <div class="container">
+      
+      <div class="section-header">
+        <h2 class="section-title">
+          <i class="fa-solid fa-calendar-days"></i>
+          التقويم الجامعي الرسمي 2027/2026
+        </h2>
+        <p class="section-subtitle">جدول المواعيد والفعاليات الرسمية الصادرة عن جامعة البلقاء التطبيقية</p>
+      </div>
+
+      <!-- Calendar Tabs -->
+      <div class="calendar-tabs">
+        <button class="tab-btn active" data-tab="firstSemester">
+          <i class="fa-solid fa-leaf"></i>
+          تقويم الفصل الأول
+        </button>
+        <button class="tab-btn" data-tab="secondSemester">
+          <i class="fa-solid fa-snowflake"></i>
+          تقويم الفصل الثاني
+        </button>
+        <button class="tab-btn" data-tab="summerSemester">
+          <i class="fa-solid fa-sun"></i>
+          تقويم الفصل الصيفي
+        </button>
+      </div>
+
+      <!-- Tab Content Frame -->
+      <div class="calendar-card-container">
+        <div id="calendarTabContent" class="calendar-tab-content active">
+          <!-- Rendered via JS -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. FOOTER (الفوتر بـ شريط Source Team البرتقالي والأخضر المميز)
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container footer-top">
+      <div class="footer-grid">
+        
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 1rem;">
+            <img src="img/source_team_logo.png?v=2" alt="Source Team Logo" style="height: 48px; width: 48px; object-fit: contain; border-radius: 50%; border: 2px solid var(--primary-green); box-shadow: 0 4px 12px rgba(33,90,54,0.15); background: #ffffff;" />
+            <div class="logo-text">
+              <div class="logo-title"><span class="green-part">Source</span> <span class="orange-part">Team</span></div>
+            </div>
+          </div>
+          <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6;">البوابة الرقمية المخصصة لطلبة كلية تكنولوجيا المعلومات في جامعة البلقاء التطبيقية والمطورة برعاية فريق Source Team لتسهيل الوصول لكافة الخدمات الأكاديمية.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>روابط سريعة</h4>
+          <ul class="footer-links">
+            <li><a href="https://www.bau.edu.jo" target="_blank"><i class="fa-solid fa-globe"></i> الموقع الرسمي لجامعة البلقاء</a></li>
+            <li><a href="https://online.bau.edu.jo" target="_blank"><i class="fa-solid fa-user-graduate"></i> بوابة التسجيل الإلكتروني</a></li>
+            <li><a href="https://elearning.bau.edu.jo" target="_blank"><i class="fa-solid fa-book-open"></i> منصة التعلم الإلكتروني (E-Learning)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>أقسام الكلية</h4>
+          <ul class="footer-links">
+            <li><a href="#" onclick="openMajorsModal('se'); return false;">قسم هندسة البرمجيات</a></li>
+            <li><a href="#" onclick="openMajorsModal('cs'); return false;">قسم علم الحاسوب</a></li>
+            <li><a href="#" onclick="openMajorsModal('cy'); return false;">قسم الأمن السيبراني</a></li>
+            <li><a href="#" onclick="openMajorsModal('ai'); return false;">قسم الذكاء الاصطناعي</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Source Team Dedicated Bottom Bar -->
+    <div class="footer-bottom-bar">
+      <div class="container">
+        <span class="dev-credit" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; flex-wrap: wrap;">
+          <img src="img/source_team_logo.png?v=2" alt="Source Team Logo" style="height: 28px; width: 28px; object-fit: contain; border-radius: 50%; border: 1.5px solid rgba(255,255,255,0.6); background: #ffffff;" />
+          <span>Developed with passion <strong>by Mohamed Al-zoubi | Source Team - IT COLLEGE - BAU</strong></span>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODALS & DRAWERS
+       ========================================================================== -->
+  <!-- Favorites Side Drawer -->
+  <div id="drawerOverlay" class="drawer-overlay">
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <h3 style="color: var(--accent-orange); font-size: 1.2rem; font-weight: 800; display: flex; align-items: center; gap: 0.5rem;">
+          <i class="fa-solid fa-star"></i> المفضلة السريعة
+        </h3>
+        <button id="drawerCloseBtn" style="background: none; border: none; color: var(--text-muted); font-size: 1.3rem; cursor: pointer;">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div id="favoritesList" class="drawer-body">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- General Purpose Modal Overlay -->
+  <div id="modalOverlay" class="modal-overlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h2 id="modalTitle" class="modal-title">عنوان المودال</h2>
+        <button id="modalCloseBtn" class="modal-close-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div id="modalBody" class="modal-body">
+        <!-- Modal Content Rendered Dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/materials.js?v=2030"></script>
+  <script src="js/data.js?v=2030"></script>
+  <script src="js/gpa.js?v=2030"></script>
+  <script src="js/app.js?v=2030"></script>
+</body>
+</html>
