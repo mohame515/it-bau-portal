@@ -1,0 +1,24 @@
+DECLARE 
+cursor c1 is select employee_id,first_name,job_id,salary from employees;
+id employees.employee_id%type;
+fname employees.first_name%type;
+job employees.job_id%type;
+salary employees.salary%type;
+x number:=1;
+begin
+open c1;
+loop
+fetch c1 into id ,fname,job,salary;
+exit when c1%notfound;
+dbms_output.put_line('employee'||'    '||x);
+dbms_output.put_line('employee number'||'    '||id);
+dbms_output.put_line('employee name'||'    '||fname);
+dbms_output.put_line('employee job'||'    '||job);
+dbms_output.put_line('employee salary'||'    '||salary);
+dbms_output.put_line('*-*-*-*-*-*-*-*-*-*-*-*-*-*');
+x:=x+1;
+end loop;
+dbms_output.put_line(c1%rowcount);
+
+close c1;
+end;

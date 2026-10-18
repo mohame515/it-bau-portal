@@ -1,0 +1,19 @@
+CREATE OR REPLACE TRIGGER tr_emp
+BEFORE INSERT OR UPDATE OR DELETE ON employees
+FOR EACH ROW
+
+DECLARE
+  day_of_week VARCHAR2(9);
+  c_time NUMBER(10);
+BEGIN
+  SELECT TO_CHAR(SYSDATE, 'DAY'), TO_CHAR(SYSDATE, 'HH24')
+  INTO day_of_week, c_time
+  FROM DUAL;
+
+  IF day_of_week IN('FRIDAY','SATURDAY')then
+     RAISE_APPLICATION_ERROR(-20001,'Today is ' ||day_of_week ||' Transactions are not allowed on weekends.');
+
+  elsif(current_time < 9 OR current_time >= 18) THEN
+     RAISE_APPLICATION_ERROR(-20001, 'the time ' || c_time ||' Transactions are not allowed on thes time.');
+END IF;
+END;

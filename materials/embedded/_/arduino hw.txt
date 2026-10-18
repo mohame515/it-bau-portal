@@ -1,0 +1,62 @@
+2.	int x_key = A0;
+3.	
+4.	int x_pos;
+5.	
+6.	
+7.	int EN_A = 11; 
+8.	int IN1 = 9; 
+9.	int IN2 = 8; 
+10.	int IN3 = 7; 
+11.	int IN4 = 6; 
+12.	int EN_B = 10; 
+13.
+14.	int motor_speed;
+15.	int motor_speed1;
+16.	
+17.	voidsetup(){
+18.	Serial.begin(9600); 
+19.	
+20.	pinMode(EN_A, OUTPUT);
+21.	pinMode(IN1, OUTPUT); 
+22.	pinMode(IN2, OUTPUT);
+23.	pinMode(IN3, OUTPUT); 
+24.	pinMode(IN4, OUTPUT);
+25.	pinMode(EN_B, OUTPUT);
+26.	
+27.	
+28.	pinMode(x_key, INPUT) ;
+29.	
+30.	}
+31.	
+32.	voidloop(){
+33.	x_pos = analogRead(x_key) ;
+34.	
+35.	
+36.	if(x_pos<400){
+37.	motor_speed = map(x_pos, 400, 0, 0, 255); 
+38.	digitalWrite(IN1, LOW);
+39.	digitalWrite(IN2, HIGH);
+40.	digitalWrite(IN3, LOW);
+41.	digitalWrite(IN4, HIGH);
+42.	analogWrite(EN_B, motor_speed);
+43.	analogWrite(EN_A, motor_speed);
+44.	}
+45.	
+46.	elseif(x_pos>400&&x_pos<600){
+47.	digitalWrite(IN1, LOW);
+48.	digitalWrite(IN2, LOW);
+49.	digitalWrite(IN3, LOW);
+50.	digitalWrite(IN4, LOW);
+51.	
+52.	}
+53.	
+54.	elseif(x_pos>600){
+56.	digitalWrite(IN1, HIGH);
+57.	digitalWrite(IN2, LOW);
+58.	digitalWrite(IN3, HIGH);
+59.	digitalWrite(IN4, LOW);
+60.	analogWrite(EN_B, motor_speed);
+61.	analogWrite(EN_A, motor_speed);
+62.	}
+
+73.	}
